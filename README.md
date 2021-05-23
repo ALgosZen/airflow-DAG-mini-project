@@ -20,5 +20,5 @@ sudo docker exec -it <container-id> /bin/bash - to access and run commands insid
 Access airflow UI on http:0.0.0.0:8080 and turn on/trigger DAG . On windows access the url localhost:8080
 
 
-![Alt text](/images/porject-img1.PNG?raw=true "Airflow webserver")
+![Alt text](/images/project-img1.png?raw=true "Airflow webserver")
 
