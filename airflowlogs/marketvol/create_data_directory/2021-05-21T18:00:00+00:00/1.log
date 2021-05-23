@@ -1,0 +1,66 @@
+[2021-05-23 02:02:16,546] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: marketvol.create_data_directory 2021-05-21T18:00:00+00:00 [queued]>
+[2021-05-23 02:02:16,568] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: marketvol.create_data_directory 2021-05-21T18:00:00+00:00 [queued]>
+[2021-05-23 02:02:16,569] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-23 02:02:16,571] {taskinstance.py:867} INFO - Starting attempt 1 of 3
+[2021-05-23 02:02:16,571] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-23 02:02:16,588] {taskinstance.py:887} INFO - Executing <Task(BashOperator): create_data_directory> on 2021-05-21T18:00:00+00:00
+[2021-05-23 02:02:16,595] {standard_task_runner.py:53} INFO - Started process 483 to run task
+[2021-05-23 02:02:16,689] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: marketvol.create_data_directory 2021-05-21T18:00:00+00:00 [running]> c240d08e6ad5
+[2021-05-23 02:02:16,768] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2021-05-23 02:02:16,771] {bash_operator.py:105} INFO - Temporary script location: /tmp/airflowtmp7a40csl9/create_data_directoryuwjqdmg4
+[2021-05-23 02:02:16,772] {bash_operator.py:115} INFO - Running command: 
+        cd $DATAPATH ; mkdir 2021-05-21 ; cd .. ; cd finance_data ; mkdir 2021-05-21
+[2021-05-23 02:02:16,791] {bash_operator.py:122} INFO - Output:
+[2021-05-23 02:02:16,816] {bash_operator.py:130} INFO - Command exited with return code 0
+[2021-05-23 02:02:16,839] {taskinstance.py:1048} INFO - Marking task as SUCCESS.dag_id=marketvol, task_id=create_data_directory, execution_date=20210521T180000, start_date=20210523T020216, end_date=20210523T020216
+[2021-05-23 02:02:26,505] {logging_mixin.py:112} INFO - [2021-05-23 02:02:26,505] {local_task_job.py:103} INFO - Task exited with return code 0
+[2021-05-23 04:31:26,803] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: marketvol.create_data_directory 2021-05-21T18:00:00+00:00 [queued]>
+[2021-05-23 04:31:26,818] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: marketvol.create_data_directory 2021-05-21T18:00:00+00:00 [queued]>
+[2021-05-23 04:31:26,819] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-23 04:31:26,820] {taskinstance.py:867} INFO - Starting attempt 1 of 3
+[2021-05-23 04:31:26,821] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-23 04:31:26,832] {taskinstance.py:887} INFO - Executing <Task(BashOperator): create_data_directory> on 2021-05-21T18:00:00+00:00
+[2021-05-23 04:31:26,837] {standard_task_runner.py:53} INFO - Started process 587 to run task
+[2021-05-23 04:31:26,949] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: marketvol.create_data_directory 2021-05-21T18:00:00+00:00 [running]> 208e7b2250b3
+[2021-05-23 04:31:26,976] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2021-05-23 04:31:26,979] {bash_operator.py:105} INFO - Temporary script location: /tmp/airflowtmp6lfq4j_n/create_data_directory8nurx2di
+[2021-05-23 04:31:26,980] {bash_operator.py:115} INFO - Running command: 
+        cd $DATAPATH ; mkdir 2021-05-21 ; cd .. ; cd finance_data ; mkdir 2021-05-21
+[2021-05-23 04:31:26,993] {bash_operator.py:122} INFO - Output:
+[2021-05-23 04:31:27,004] {bash_operator.py:126} INFO - mkdir: cannot create directory ‘2021-05-21’: File exists
+[2021-05-23 04:31:27,007] {bash_operator.py:126} INFO - mkdir: cannot create directory ‘2021-05-21’: File exists
+[2021-05-23 04:31:27,008] {bash_operator.py:130} INFO - Command exited with return code 1
+[2021-05-23 04:31:27,019] {taskinstance.py:1128} ERROR - Bash command failed
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 966, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.7/site-packages/airflow/operators/bash_operator.py", line 134, in execute
+    raise AirflowException("Bash command failed")
+airflow.exceptions.AirflowException: Bash command failed
+[2021-05-23 04:31:27,028] {taskinstance.py:1151} INFO - Marking task as UP_FOR_RETRY
+[2021-05-23 04:31:36,762] {logging_mixin.py:112} INFO - [2021-05-23 04:31:36,762] {local_task_job.py:103} INFO - Task exited with return code 1
+[2021-05-23 04:51:26,527] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: marketvol.create_data_directory 2021-05-21T18:00:00+00:00 [queued]>
+[2021-05-23 04:51:26,547] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: marketvol.create_data_directory 2021-05-21T18:00:00+00:00 [queued]>
+[2021-05-23 04:51:26,548] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-23 04:51:26,549] {taskinstance.py:867} INFO - Starting attempt 1 of 3
+[2021-05-23 04:51:26,549] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-23 04:51:26,567] {taskinstance.py:887} INFO - Executing <Task(BashOperator): create_data_directory> on 2021-05-21T18:00:00+00:00
+[2021-05-23 04:51:26,571] {standard_task_runner.py:53} INFO - Started process 441 to run task
+[2021-05-23 04:51:26,662] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: marketvol.create_data_directory 2021-05-21T18:00:00+00:00 [running]> 2c3412db0863
+[2021-05-23 04:51:26,699] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2021-05-23 04:51:26,703] {bash_operator.py:105} INFO - Temporary script location: /tmp/airflowtmp5fh02rp4/create_data_directoryo4fagwke
+[2021-05-23 04:51:26,704] {bash_operator.py:115} INFO - Running command: 
+        cd $DATAPATH ; mkdir 2021-05-21 ; cd .. ; cd finance_data ; mkdir 2021-05-21
+[2021-05-23 04:51:26,715] {bash_operator.py:122} INFO - Output:
+[2021-05-23 04:51:26,741] {bash_operator.py:130} INFO - Command exited with return code 0
+[2021-05-23 04:51:26,763] {taskinstance.py:1048} INFO - Marking task as SUCCESS.dag_id=marketvol, task_id=create_data_directory, execution_date=20210521T180000, start_date=20210523T045126, end_date=20210523T045126
+[2021-05-23 04:51:36,508] {logging_mixin.py:112} INFO - [2021-05-23 04:51:36,508] {local_task_job.py:103} INFO - Task exited with return code 0

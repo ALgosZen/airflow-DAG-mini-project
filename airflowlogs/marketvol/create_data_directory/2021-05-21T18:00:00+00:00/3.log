@@ -1,0 +1,27 @@
+[2021-05-23 04:41:33,771] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: marketvol.create_data_directory 2021-05-21T18:00:00+00:00 [queued]>
+[2021-05-23 04:41:33,789] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: marketvol.create_data_directory 2021-05-21T18:00:00+00:00 [queued]>
+[2021-05-23 04:41:33,789] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-23 04:41:33,790] {taskinstance.py:867} INFO - Starting attempt 3 of 3
+[2021-05-23 04:41:33,791] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-23 04:41:33,806] {taskinstance.py:887} INFO - Executing <Task(BashOperator): create_data_directory> on 2021-05-21T18:00:00+00:00
+[2021-05-23 04:41:33,809] {standard_task_runner.py:53} INFO - Started process 3492 to run task
+[2021-05-23 04:41:33,874] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: marketvol.create_data_directory 2021-05-21T18:00:00+00:00 [running]> edefe360f712
+[2021-05-23 04:41:33,900] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2021-05-23 04:41:33,902] {bash_operator.py:105} INFO - Temporary script location: /tmp/airflowtmpl2kypo96/create_data_directory1sxmvvu0
+[2021-05-23 04:41:33,903] {bash_operator.py:115} INFO - Running command: 
+        cd $DATAPATH ; mkdir 2021-05-21 ; cd .. ; cd finance_data ; mkdir 2021-05-21
+[2021-05-23 04:41:33,911] {bash_operator.py:122} INFO - Output:
+[2021-05-23 04:41:33,921] {bash_operator.py:126} INFO - mkdir: cannot create directory ‘2021-05-21’: File exists
+[2021-05-23 04:41:33,923] {bash_operator.py:130} INFO - Command exited with return code 1
+[2021-05-23 04:41:33,937] {taskinstance.py:1128} ERROR - Bash command failed
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 966, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.7/site-packages/airflow/operators/bash_operator.py", line 134, in execute
+    raise AirflowException("Bash command failed")
+airflow.exceptions.AirflowException: Bash command failed
+[2021-05-23 04:41:33,939] {taskinstance.py:1170} INFO - All retries failed; marking task as FAILED.dag_id=marketvol, task_id=create_data_directory, execution_date=20210521T180000, start_date=20210523T044133, end_date=20210523T044133
+[2021-05-23 04:41:43,719] {logging_mixin.py:112} INFO - [2021-05-23 04:41:43,719] {local_task_job.py:103} INFO - Task exited with return code 1
