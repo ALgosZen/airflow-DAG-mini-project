@@ -1,0 +1,99 @@
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/download_tsla_stock/2021-05-21T18:00:00+00:00/1.log
+The total number of errors :0
+----------------------------------------------------------------------------------------
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/download_tsla_stock/2021-05-23T04:39:19.265757+00:00/1.log
+The total number of errors :0
+----------------------------------------------------------------------------------------
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/download_tsla_stock/2021-05-23T04:55:32.748724+00:00/1.log
+The total number of errors :0
+----------------------------------------------------------------------------------------
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/move_tsla_data_to_diff_location/2021-05-21T18:00:00+00:00/2.log
+The total number of errors :0
+----------------------------------------------------------------------------------------
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/move_tsla_data_to_diff_location/2021-05-21T18:00:00+00:00/1.log
+The total number of errors :1
+Here are all the errors:
+[2021-05-23 04:51:32,947] {taskinstance.py:1128} ERROR - Bash command failed
+
+----------------------------------------------------------------------------------------
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/move_tsla_data_to_diff_location/2021-05-23T04:39:19.265757+00:00/1.log
+The total number of errors :0
+----------------------------------------------------------------------------------------
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/move_tsla_data_to_diff_location/2021-05-23T04:55:32.748724+00:00/1.log
+The total number of errors :0
+----------------------------------------------------------------------------------------
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/download_apple_stock/2021-05-21T18:00:00+00:00/1.log
+The total number of errors :0
+----------------------------------------------------------------------------------------
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/download_apple_stock/2021-05-23T04:39:19.265757+00:00/1.log
+The total number of errors :0
+----------------------------------------------------------------------------------------
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/download_apple_stock/2021-05-23T04:55:32.748724+00:00/1.log
+The total number of errors :0
+----------------------------------------------------------------------------------------
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/move_apple_data_to_diff_location/2021-05-21T18:00:00+00:00/2.log
+The total number of errors :0
+----------------------------------------------------------------------------------------
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/move_apple_data_to_diff_location/2021-05-21T18:00:00+00:00/1.log
+The total number of errors :1
+Here are all the errors:
+[2021-05-23 04:51:32,973] {taskinstance.py:1128} ERROR - Bash command failed
+
+----------------------------------------------------------------------------------------
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/move_apple_data_to_diff_location/2021-05-23T04:39:19.265757+00:00/1.log
+The total number of errors :0
+----------------------------------------------------------------------------------------
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/move_apple_data_to_diff_location/2021-05-23T04:55:32.748724+00:00/1.log
+The total number of errors :0
+----------------------------------------------------------------------------------------
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/execute_query_on_data/2021-05-21T18:00:00+00:00/1.log
+The total number of errors :0
+----------------------------------------------------------------------------------------
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/execute_query_on_data/2021-05-23T04:39:19.265757+00:00/1.log
+The total number of errors :0
+----------------------------------------------------------------------------------------
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/execute_query_on_data/2021-05-23T04:55:32.748724+00:00/1.log
+The total number of errors :1
+Here are all the errors:
+[2021-05-23 04:55:47,089] {taskinstance.py:1128} ERROR - [Errno 2] File /usr/local/finance_data/2021-05-23/data_aapl.csv does not exist: '/usr/local/finance_data/2021-05-23/data_aapl.csv'
+
+----------------------------------------------------------------------------------------
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/connect/2021-05-21T18:00:00+00:00/1.log
+The total number of errors :0
+----------------------------------------------------------------------------------------
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/connect/2021-05-23T04:39:19.265757+00:00/1.log
+The total number of errors :0
+----------------------------------------------------------------------------------------
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/connect/2021-05-23T04:55:32.748724+00:00/1.log
+The total number of errors :0
+----------------------------------------------------------------------------------------
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/create_data_directory/2021-05-21T18:00:00+00:00/2.log
+The total number of errors :1
+Here are all the errors:
+[2021-05-23 04:36:31,199] {taskinstance.py:1128} ERROR - Bash command failed
+
+----------------------------------------------------------------------------------------
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/create_data_directory/2021-05-21T18:00:00+00:00/3.log
+The total number of errors :1
+Here are all the errors:
+[2021-05-23 04:41:33,937] {taskinstance.py:1128} ERROR - Bash command failed
+
+----------------------------------------------------------------------------------------
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/create_data_directory/2021-05-21T18:00:00+00:00/1.log
+The total number of errors :1
+Here are all the errors:
+[2021-05-23 04:31:27,019] {taskinstance.py:1128} ERROR - Bash command failed
+
+----------------------------------------------------------------------------------------
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/create_data_directory/2021-05-23T04:41:03.187465+00:00/1.log
+The total number of errors :1
+Here are all the errors:
+[2021-05-23 04:41:05,972] {taskinstance.py:1128} ERROR - Bash command failed
+
+----------------------------------------------------------------------------------------
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/create_data_directory/2021-05-23T04:39:19.265757+00:00/1.log
+The total number of errors :0
+----------------------------------------------------------------------------------------
+/Users/greenbook/Desktop/springboard/airflow-mini-project/airflowlogs/marketvol/create_data_directory/2021-05-23T04:55:32.748724+00:00/1.log
+The total number of errors :0
+----------------------------------------------------------------------------------------

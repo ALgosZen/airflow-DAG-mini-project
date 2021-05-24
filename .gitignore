@@ -1,2 +1,2 @@
-.idea/*
-/**/.idea/*
+# Ignore .idea files
+.idea/

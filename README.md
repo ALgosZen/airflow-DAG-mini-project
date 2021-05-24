@@ -1,4 +1,4 @@
-## Table of contents
+## airflow mini project 1
 * [Project Details](#Project-Details)
 
 ## Project-Details
@@ -22,3 +22,12 @@ Access airflow UI on http:0.0.0.0:8080 and turn on/trigger DAG . On windows acce
 
 ![Alt text](/images/project-img1.png?raw=true "Airflow webserver")
 
+
+## airflow mini project 2 - log analyzer
+*run the following command to generate .
+* output is generated and saved to output.text
+
+```
+python3 log_analyzer.py <path_of_airflow_logs>
+
+```
