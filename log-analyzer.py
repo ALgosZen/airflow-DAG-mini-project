@@ -29,9 +29,9 @@ file_list = Path(log_dir).rglob('*.log')
 
 for file in file_list:
     with open(file) as f:
-        print(f.name)
+   #     print(f.name)
         dict1 = parse_logs(f)
-    #    print("Error metrics for task '" + str(file).split("\\")[3] + "' on date: " + str(file).split("\\")[4])
+        print("Error metrics for task '" + str(file).split("/")[8] + "' on date: " + str(file).split("/")[9])
         print("The total number of errors :" + str(len(dict1)))
 
         if len(dict1) > 0:

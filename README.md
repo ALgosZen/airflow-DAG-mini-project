@@ -28,6 +28,6 @@ Access airflow UI on http:0.0.0.0:8080 and turn on/trigger DAG . On windows acce
 * output is generated and saved to output.text
 
 ```
-python3 log_analyzer.py <path_of_airflow_logs>
+python3 log_analyzer.py
 
 ```
